@@ -8,7 +8,7 @@ clear
 addpath 'C:\Users\felippe.colombari\easyspin-6.0.0\easyspin'
 
 % read EPR data
-[B,spc] = textread('EPR_WT_avicel.txt', '%s%s%*s%*s');
+[B,spc] = textread('../demo/EPR_WT_avicel.txt', '%s%s%*s%*s');
 B   = str2double(B);
 spc = str2double(spc);
 
