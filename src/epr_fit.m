@@ -5,7 +5,7 @@
 clear
 
 % add path to easyspin exec
-addpath 'C:\Users\felippe.colombari\easyspin-6.0.0\easyspin-6.0.0\easyspin'
+addpath 'C:\Users\felippe.colombari\easyspin-6.0.0\easyspin'
 
 % read EPR data
 [B,spc] = textread('EPR_WT_avicel.txt', '%s%s%*s%*s');
